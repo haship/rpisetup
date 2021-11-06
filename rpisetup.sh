@@ -15,3 +15,7 @@ sudo raspi-config nonint do_change_locale ja_JP.UTF-8
 # タイムゾーン設定
 sudo raspi-config nonint do_change_timezone Asia/Tokyo
 
+
+
+# update
+sudo apt-get update && sudo apt-get -y upgrade
